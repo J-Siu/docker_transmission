@@ -69,6 +69,8 @@ docker-compose up
   - start.sh
     - Use exec so start.sh can exit
     - Remove delgroup ${PUSR}
+- 3.00-r2
+  - Auto update to 3.00-r2
 <!--CHANGE-LOG-END-->
 
 ### License
