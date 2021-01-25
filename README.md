@@ -50,7 +50,7 @@ docker-compose up
 
 ### Repository
 
-- [docker_compose](https://github.com/J-Siu/docker_transmission)
+- [docker_transmission](https://github.com/J-Siu/docker_transmission)
 
 ### Contributors
 
