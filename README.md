@@ -94,6 +94,8 @@ docker-compose up
   - Add docker push github workflow
 - 4.0.2-r2
   - Auto update to 4.0.2-r2
+- 4.0.3-r2
+  - Auto update to 4.0.3-r2
 <!--CHANGE-LOG-END-->
 
 ### License
