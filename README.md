@@ -96,6 +96,8 @@ docker-compose up
   - Auto update to 4.0.2-r2
 - 4.0.3-r2
   - Auto update to 4.0.3-r2
+- 4.0.3-r3
+  - Auto update to 4.0.3-r3
 <!--CHANGE-LOG-END-->
 
 ### License
