@@ -1,0 +1,29 @@
+- 2.94
+  - transmission version 2.94
+- 3.00-r0
+  - transmission version 3.00-r0
+- 3.00-r0-p1
+  - transmission version 3.00-r0
+  - Add postfix `-p1` to indicate container update
+  - Dockerfile remove apk update
+  - start.sh
+    - Use exec so start.sh can exit
+    - Remove delgroup ${PUSR}
+- 3.00-r2
+  - Auto update to 3.00-r2
+- 3.00-r3
+  - Auto update to 3.00-r3
+- 3.00-r6
+  - Auto update to 3.00-r6
+- 3.00-r6-p1
+  - Add docker push github workflow
+- 4.0.2-r2
+  - Auto update to 4.0.2-r2
+- 4.0.3-r2
+  - Auto update to 4.0.3-r2
+- 4.0.3-r3
+  - Auto update to 4.0.3-r3
+- 4.0.6-r0
+  - Auto update to 4.0.6-r0
+- 4.0.6-r4
+  - Auto update to 4.0.6-r4
