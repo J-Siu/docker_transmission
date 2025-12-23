@@ -27,3 +27,5 @@
   - Auto update to 4.0.6-r0
 - 4.0.6-r4
   - Auto update to 4.0.6-r4
+- 4.0.6-r5
+  - Auto update to 4.0.6-r5
