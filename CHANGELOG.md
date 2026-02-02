@@ -31,3 +31,5 @@
   - Auto update to 4.0.6-r5
 - 4.0.6-r6
   - Auto update to 4.0.6-r6
+- 4.1.0-r0
+  - Auto update to 4.1.0-r0
