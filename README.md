@@ -16,7 +16,7 @@
 ```sh
 git clone https://github.com/J-Siu/docker_transmission.git
 cd docker_transmission
-docker build --network=host -t jsiu/transmission .
+docker build --network=host -t jsiu/transmission-daemon .
 ```
 
 ### Usage
@@ -41,7 +41,7 @@ docker run \
 -e P_TZ=America/New_York \
 -v /home/jsiu/transmission:/transmission/.config/transmission-daemon \
 --network=host \
-jsiu/transmission
+jsiu/transmission-daemon
 ```
 
 #### Compose
@@ -49,8 +49,8 @@ jsiu/transmission
 Get docker-compose template from image:
 
 ```docker
-docker run --rm jsiu/transmission cat /docker-compose.yml > docker-compose.yml
-docker run --rm jsiu/transmission cat /env > .env
+docker run --rm jsiu/transmission-daemon cat /docker-compose.yml > docker-compose.yml
+docker run --rm jsiu/transmission-daemon cat /env > .env
 ```
 
 Fill in `.env` according to your environment.
