@@ -6,6 +6,7 @@
   - [Run](#run)
   - [Compose](#compose)
 - [Repository](#repository)
+- [Docker Hub](#docker-hub)
 - [Contributors](#contributors)
 - [License](#license)
 
@@ -62,6 +63,10 @@ docker-compose up
 ### Repository
 
 - [docker_transmission](https://github.com/J-Siu/docker_transmission)
+
+### Docker Hub
+
+- [jsiu/transmission-daemon](https://hub.docker.com/repository/docker/jsiu/transmission-daemon/general)
 
 ### Contributors
 
