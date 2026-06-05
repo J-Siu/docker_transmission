@@ -1,6 +1,6 @@
 # docker_mpd
 FROM alpine:edge
-ARG VERSION="4.1.1-r1"
+ARG VERSION="4.1.2-r0"
 LABEL version=${VERSION}
 LABEL maintainers="[John Sing Dao Siu](https://github.com/J-Siu)"
 LABEL name="transmission-daemon"
@@ -9,7 +9,7 @@ LABEL description="Docker - transmission with UID/GID handling"
 
 COPY docker-compose.yml env start.sh /
 RUN apk --no-cache add \
-	transmission-daemon=${VERSION} \
+transmission-daemon=4.1.2-r0 \
 	ca-certificates \
 	ca-certificates-bundle \
 	tzdata \
