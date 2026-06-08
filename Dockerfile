@@ -9,7 +9,7 @@ LABEL description="Docker - transmission with UID/GID handling"
 
 COPY docker-compose.yml env start.sh /
 RUN apk --no-cache add \
-transmission-daemon=4.1.2-r0 \
+transmission-daemon=${VERSION} \
 	ca-certificates \
 	ca-certificates-bundle \
 	tzdata \
